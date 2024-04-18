@@ -142,4 +142,9 @@ footer{
     box-sizing: border-box; /* Incluye el padding y el borde del ancho */
 }
 
+#Todos_los_destinos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
