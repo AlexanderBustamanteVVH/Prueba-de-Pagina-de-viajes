@@ -188,19 +188,40 @@ footer{
     width: 80%;
     margin: 0 auto;
     padding: 10px;
-<<<<<<< HEAD
     margin-left: 50px;
 }   
-.alojamientos img {
+.alojamientos {
     border-radius: 8px;
     transition: 1000ms all;
     transform-origin: center left;
     box-shadow: 0 5px 12px;
     overflow: hidden;
+}
+.alojamientos img{
+    height: 500px;
     object-fit: cover;
     border-radius: 4px;
 }
-=======
+.alojamientos:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #00fffc;
+    margin: 5px;
+}
+.alojamientos:hover figcaption{
+    font-size: 0.6rem;
+    position: absolute;
+    height: 300;
+    width: 400;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+    rgba(0, 0, 0, 0.9 )
+    rgba(0, 0, 0, 0) 100%);
+    color: white;
+    left: 0px;
+    padding-left: 12px;
+    padding-bottom: 10px;
 }
 /* parte de destinos */
 
@@ -287,4 +308,3 @@ footer{
 }
 
 /* parte de destinos */
->>>>>>> 5e68e4971e59c432fb88eb4f48639b76b9ef83be
