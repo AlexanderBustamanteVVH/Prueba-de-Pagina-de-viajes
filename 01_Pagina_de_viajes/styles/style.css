@@ -199,7 +199,7 @@ footer{
     object-fit: cover;
     border-radius: 4px;
 }
-}
+
 /* parte de destinos */
 
 #banner_destinos{
@@ -211,12 +211,12 @@ footer{
 }
 
 .Paises{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
-    padding: 3em;
+    margin: 3em;
 }
 .Paises img{
-    width: 90%;
+    width: 100%;
     border-radius: 8px;
 }
 .Paises h2{
@@ -272,7 +272,6 @@ footer{
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 100%);
     color: white;
-    left: 10px;
     bottom: 3px;
     padding-left: 12px;
     padding-bottom: 10px;
@@ -283,5 +282,7 @@ footer{
     cursor: pointer;
     transform: translateX(22px);
 }
+
+
 
 /* parte de destinos */
