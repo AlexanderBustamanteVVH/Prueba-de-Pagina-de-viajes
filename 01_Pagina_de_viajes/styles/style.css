@@ -202,6 +202,13 @@ footer{
     object-fit: cover;
     border-radius: 4px;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+>>>>>>> 9ac3b2a19151a853719154b5bd7bf782338e967f
 .alojamientos:hover {
     cursor: pointer;
     transform: scale(1.15);
@@ -223,6 +230,7 @@ footer{
     padding-left: 12px;
     padding-bottom: 10px;
 }
+>>>>>>> fedd6ebfa68950e82498e6258da447fcbce84d24
 /* parte de destinos */
 
 #banner_destinos{
@@ -234,12 +242,12 @@ footer{
 }
 
 .Paises{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
-    padding: 3em;
+    margin: 3em;
 }
 .Paises img{
-    width: 90%;
+    width: 100%;
     border-radius: 8px;
 }
 .Paises h2{
@@ -295,7 +303,6 @@ footer{
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 100%);
     color: white;
-    left: 10px;
     bottom: 3px;
     padding-left: 12px;
     padding-bottom: 10px;
@@ -306,5 +313,7 @@ footer{
     cursor: pointer;
     transform: translateX(22px);
 }
+
+
 
 /* parte de destinos */
