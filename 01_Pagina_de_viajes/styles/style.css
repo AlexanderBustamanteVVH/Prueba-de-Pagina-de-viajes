@@ -187,3 +187,32 @@ footer{
     margin: 0 auto;
     padding: 10px;
 }
+
+#banner_destinos{
+    background-image: url('https://lengaoutdoor.cl/cdn/shop/articles/Torres_del_Paine_1500x.png?v=1684515991'); /*Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al area del banner */
+    color: #ffffff; /* Establece color del texto */
+    text-align: center; /* Centra el texto del banner */
+    padding: 100px 0; /* Define relleno superior e inferior */
+}
+
+.Paises {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Paises img {
+    width: 80%;
+    border-radius: 8px;
+}
+.Paises h3 {
+    margin-top: 10px;
+}
+.Paises p {
+    margin-top: 10px;
+}
+#Todos_los_destinos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
