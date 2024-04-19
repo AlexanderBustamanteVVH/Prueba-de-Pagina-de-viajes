@@ -190,16 +190,46 @@ footer{
     padding: 10px;
     margin-left: 50px;
 }   
-.alojamientos img {
+.alojamientos {
     border-radius: 8px;
     transition: 1000ms all;
     transform-origin: center left;
     box-shadow: 0 5px 12px;
     overflow: hidden;
+}
+.alojamientos img{
+    height: 500px;
     object-fit: cover;
     border-radius: 4px;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+.alojamientos:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #00fffc;
+    margin: 5px;
+}
+.alojamientos:hover figcaption{
+    font-size: 0.6rem;
+    position: absolute;
+    height: 300;
+    width: 400;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+    rgba(0, 0, 0, 0.9 )
+    rgba(0, 0, 0, 0) 100%);
+    color: white;
+    left: 0px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+=======
+>>>>>>> fdd1af38e226193b4d0a84f2ea2bfe4aefa3d893
+}
+>>>>>>> fedd6ebfa68950e82498e6258da447fcbce84d24
 /* parte de destinos */
 
 #banner_destinos{
