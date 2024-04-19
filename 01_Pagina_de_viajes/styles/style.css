@@ -79,7 +79,7 @@ section{
 
 .destino{
     width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
-    margin-bottom: 20px; /* Define eñ margen interior */
+    margin-bottom: 20px; /* Define el margen interior */
     text-align: center; /* Centra el texto */
 }
 
@@ -129,7 +129,7 @@ footer{
 #contacto label{
     display: block; /* Eiqueras en bloques */
     margin-bottom: 10px;
-    font-weight: bold; /* Establece fuente em megrita */
+    font-weight: bold; /* Establece fuente en negrita */
 }
 
 #contacto input, #contacto textarea{
@@ -147,4 +147,43 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+#Bienvenidos{
+    background-color: rgb(255, 246, 238); /*Establece el color de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al area del banner */
+    color: #000000; /* Establece color del texto */
+}
+#alojamientos {
+    background-image: url('https://www.complejoturisticopucon.com/wp-content/uploads/ctop03.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+#alojamientos h2 {
+    font-size: 36px;
+}
+.alojamientos {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.alojamientos img {
+    width: 80%;
+    border-radius: 8px;
+}
+.alojamientos h3 {
+    margin-top: 10px;
+}
+.alojamientos p {
+    margin-top: 10px;
+}
+.alojamientos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titulo-alojamiento {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
