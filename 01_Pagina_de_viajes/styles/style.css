@@ -152,6 +152,7 @@ footer{
     background-size: cover; /* Ajusta la imagen al area del banner */
     color: #000000; /* Establece color del texto */
 }
+/* Zona alojamientos */
 #alojamientos {
     background-image: url('https://www.complejoturisticopucon.com/wp-content/uploads/ctop03.jpg');
     background-size: cover;
@@ -162,6 +163,7 @@ footer{
 #alojamientos h2 {
     font-size: 36px;
 }
+
 .alojamientos {
     width: calc(33.33% - 20px);
     margin-bottom: 20px;
@@ -186,6 +188,19 @@ footer{
     width: 80%;
     margin: 0 auto;
     padding: 10px;
+<<<<<<< HEAD
+    margin-left: 50px;
+}   
+.alojamientos img {
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin: center left;
+    box-shadow: 0 5px 12px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 4px;
+}
+=======
 }
 /* parte de destinos */
 
@@ -272,3 +287,4 @@ footer{
 }
 
 /* parte de destinos */
+>>>>>>> 5e68e4971e59c432fb88eb4f48639b76b9ef83be
