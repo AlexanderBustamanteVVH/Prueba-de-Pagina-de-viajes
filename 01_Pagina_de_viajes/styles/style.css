@@ -202,6 +202,7 @@ footer{
     object-fit: cover;
     border-radius: 4px;
 }
+<<<<<<< HEAD
 .alojamientos:hover {
     cursor: pointer;
     transform: scale(1.15);
@@ -222,6 +223,8 @@ footer{
     left: 0px;
     padding-left: 12px;
     padding-bottom: 10px;
+=======
+>>>>>>> fdd1af38e226193b4d0a84f2ea2bfe4aefa3d893
 }
 /* parte de destinos */
 
