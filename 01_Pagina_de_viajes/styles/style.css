@@ -202,13 +202,6 @@ footer{
     object-fit: cover;
     border-radius: 4px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
->>>>>>> 9ac3b2a19151a853719154b5bd7bf782338e967f
 .alojamientos:hover {
     cursor: pointer;
     transform: scale(1.15);
@@ -230,7 +223,6 @@ footer{
     padding-left: 12px;
     padding-bottom: 10px;
 }
->>>>>>> fedd6ebfa68950e82498e6258da447fcbce84d24
 /* parte de destinos */
 
 #banner_destinos{
@@ -244,7 +236,7 @@ footer{
 .Paises{
     margin-bottom: 5px;
     text-align: center;
-    margin: 3em;
+    margin: 2em;
 }
 .Paises img{
     width: 100%;
@@ -258,8 +250,9 @@ footer{
 }
 #todos_los_destinos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    padding: 0 4em;
 }
 .titulo_destino{
     margin-left: 4em;
