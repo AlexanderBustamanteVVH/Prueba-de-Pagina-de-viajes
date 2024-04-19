@@ -149,7 +149,7 @@ footer{
 }
 
 #Bienvenidos{
-    background-color: rgb(240, 230, 222); /*Establece el color de fondo del banner */
+    background-color: rgb(255, 246, 238); /*Establece el color de fondo del banner */
     background-size: cover; /* Ajusta la imagen al area del banner */
     color: #000000; /* Establece color del texto */
 }
