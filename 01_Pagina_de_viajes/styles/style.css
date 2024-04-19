@@ -220,5 +220,56 @@ footer{
 .titulo_destino{
     margin-left: 4em;
 }
+.card {
+    position: relative;
+    left: 0px;
+    width: 140px;
+    height: 160px;
+    background-color:
+    var(--background);
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin:
+    center left;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+}
+
+.Paises img {
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.Paises:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #00fffc;
+    margin: 5px;
+}
+
+.Paises:hover figcaption {
+    font-size: 0.6rem;
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%);
+    color: white;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+.Paises:hover~.Paises {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(22px);
+}
 
 /* parte de destinos */
