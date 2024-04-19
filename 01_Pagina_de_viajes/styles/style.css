@@ -17,7 +17,7 @@ body { /* Seleccion de body */
 
 /* estilo de encabezado */
 header{
-    background-color: #333; /* Establece el color del fondo */
+    background: linear-gradient(90deg, rgba(7,0,119,1) 3%, rgba(8,8,173,1) 17%, rgba(0,212,255,1) 99%); /* Establece el color del fondo */
     color: #fff; /* Establece el color del texto */ 
     padding: 20px 0; /* Añade relleno superior e inferior */
 }          
@@ -97,7 +97,7 @@ section{
 }
 
 footer{
-    background-color: #333; /* Establece color de fondo de footer */
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(8,8,173,1) 89%, rgba(7,0,119,1) 100%); /* Establece color de fondo de footer */
     color: #fff; /* Establece color de texto de footer */
     text-align: center; /* Centr el texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
@@ -188,6 +188,7 @@ footer{
     width: 80%;
     margin: 0 auto;
     padding: 10px;
+<<<<<<< HEAD
     margin-left: 50px;
 }   
 .alojamientos img {
@@ -199,3 +200,91 @@ footer{
     object-fit: cover;
     border-radius: 4px;
 }
+=======
+}
+/* parte de destinos */
+
+#banner_destinos{
+    background-image: url('https://lengaoutdoor.cl/cdn/shop/articles/Torres_del_Paine_1500x.png?v=1684515991'); /*Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al area del banner */
+    color: #ffffff; /* Establece color del texto */
+    text-align: center; /* Centra el texto del banner */
+    padding: 100px 0; /* Define relleno superior e inferior */
+}
+
+.Paises{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3em;
+}
+.Paises img{
+    width: 90%;
+    border-radius: 8px;
+}
+.Paises h2{
+    margin-top: 10px;
+}
+.Paises p{
+    margin-top: 10px;
+}
+#todos_los_destinos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titulo_destino{
+    margin-left: 4em;
+}
+.Paises {
+    position: relative;
+    left: 0px;
+    width: 500px;
+    height: 500px;
+    background-color:
+        var(--background);
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin:center left;
+    box-shadow: 0 5px 12px rgba(201, 238, 253, 0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+}
+
+.Paises img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.Paises:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #00fffc;
+    margin: 5px;
+}
+
+.Paises:hover figcaption {
+    font-size: 1rem;
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    align-items: end;
+    background: linear-gradient(to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%);
+    color: white;
+    left: 10px;
+    bottom: 3px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+.Paises:hover~.Paises {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(22px);
+}
+
+/* parte de destinos */
+>>>>>>> 5e68e4971e59c432fb88eb4f48639b76b9ef83be
