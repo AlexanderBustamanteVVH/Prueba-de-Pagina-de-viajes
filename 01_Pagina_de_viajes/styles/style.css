@@ -17,7 +17,7 @@ body { /* Seleccion de body */
 
 /* estilo de encabezado */
 header{
-    background-color: #333; /* Establece el color del fondo */
+    background: linear-gradient(90deg, rgba(7,0,119,1) 3%, rgba(8,8,173,1) 17%, rgba(0,212,255,1) 99%); /* Establece el color del fondo */
     color: #fff; /* Establece el color del texto */ 
     padding: 20px 0; /* Añade relleno superior e inferior */
 }          
@@ -198,12 +198,12 @@ footer{
 }
 
 .Paises{
-    width: calc(33.33% - 20px);
     margin-bottom: 20px;
     text-align: center;
+    padding: 3em;
 }
 .Paises img{
-    width: 80%;
+    width: 90%;
     border-radius: 8px;
 }
 .Paises h2{
@@ -216,6 +216,9 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.titulo_destino{
+    margin-left: 4em;
 }
 
 /* parte de destinos */
