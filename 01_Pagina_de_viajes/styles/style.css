@@ -161,68 +161,76 @@ footer{
     padding: 100px 0;
 }
 #alojamientos h2 {
-    font-size: 36px;
+    font-size: 35px;
 }
 
-.alojamientos {
-    width: calc(33.33% - 20px);
-    margin-bottom: 20px;
+.alojamientos{
+    margin-bottom: 5px;
     text-align: center;
-}
-.alojamientos img {
-    width: 80%;
-    border-radius: 8px;
-}
-.alojamientos h3 {
-    margin-top: 10px;
-}
-.alojamientos p {
-    margin-top: 10px;
-}
-.alojamientos-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.titulo-alojamiento {
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px;
-    margin-left: 50px;
-}   
-.alojamientos {
-    border-radius: 8px;
-    transition: 1000ms all;
-    transform-origin: center left;
-    box-shadow: 0 5px 12px;
-    overflow: hidden;
+    margin: 2em;
 }
 .alojamientos img{
+    width: 100%;
+    border-radius: 8px;
+}
+.titulo-alojamientos {
+    
+}
+#alojamientos-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 4em;
+}
+.alojamientos {
+    position: relative;
+    left: 0px;
+    width: 500px;
+    height: 500px;
+    background-color:
+        var(--background);
+    border-radius: 8px;
+    transition: 1000ms all;
+    transform-origin:center left;
+    box-shadow: 0 5px 12px rgba(201, 238, 253, 0.5);
+    outline: 1px solid var(--background);
+    overflow: hidden;
+}
+
+.alojamientos img {
     height: 500px;
     object-fit: cover;
     border-radius: 4px;
 }
+
 .alojamientos:hover {
     cursor: pointer;
     transform: scale(1.15);
     box-shadow: 0 0 20px #00fffc;
     margin: 5px;
 }
-.alojamientos:hover figcaption{
-    font-size: 0.6rem;
+
+.alojamientos:hover figcaption {
+    font-size: 1rem;
     position: absolute;
-    height: 300;
-    width: 400;
+    height: 500px;
+    width: 600px;
     display: flex;
     align-items: end;
     background: linear-gradient(to top,
-    rgba(0, 0, 0, 0.9 )
-    rgba(0, 0, 0, 0) 100%);
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%);
     color: white;
-    left: 0px;
-    padding-left: 12px;
+    bottom: 3px;
+    padding-left: 10px;
     padding-bottom: 10px;
 }
+.alojamientos:hover~.Paises {
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(22px)
+}
+
 /* parte de destinos */
 
 #banner_destinos{
