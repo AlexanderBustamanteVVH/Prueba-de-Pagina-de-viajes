@@ -230,7 +230,9 @@ footer{
     cursor: pointer;
     transform: translateX(22px)
 }
-
+.titulo-alojamientos {
+    margin-left: 4em;
+}
 /* parte de destinos */
 
 #banner_destinos{
