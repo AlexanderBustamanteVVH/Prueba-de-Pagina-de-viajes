@@ -218,7 +218,7 @@ footer{
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 100%);
     color: white;
-    bottom: 3px;
+    bottom: 0px;
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -303,7 +303,7 @@ footer{
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 100%);
     color: white;
-    bottom: 3px;
+    bottom: 0px;
     padding-left: 12px;
     padding-bottom: 10px;
 }
