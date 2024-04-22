@@ -392,3 +392,13 @@ h2{
     margin: 0 2em;
     font-size: 3em;
 }
+
+/*Aqui inicia paquetes*/
+
+#banner_paquetes{
+    background-image: url('https://img.static-kl.com/images/media/38AED63A-3686-4E2A-83A5F754BB3438F4/?w=1500&h=500'); 
+    background-size: cover; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 100px 0;
+}
