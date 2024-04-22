@@ -357,9 +357,9 @@ footer{
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 100%);
     color: white;
-    bottom: 3px;
+    bottom: 0px;
     padding-left: 12px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 10px;
 }
 
@@ -388,7 +388,9 @@ footer{
     padding: 100px 0;
 }
 
-h2{
+.preferidas{
     margin: 0 2em;
-    font-size: 3em;
+    font-size: 2em;
 }
+
+/* parte de actividades */
