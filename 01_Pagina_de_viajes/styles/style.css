@@ -7,6 +7,11 @@ body { /* Seleccion de body */
     font-family: Arial, sans-serif; /* Cambia tipografia */
     margin: 0; /* Elimina todo el margen por defecto */
     padding: 0; /* Elimina todo el relleno de los elementos */
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(53,66,98,1) 55%, rgba(12,40,42,1) 100%);
+}
+
+h2,p,h3{
+    color: #fff;
 }
 
 /* Aca viene el estilo de una clase container */
@@ -319,8 +324,8 @@ footer{
 .Actividad{
     position: relative;
     left: 0px;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color:
         var(--background);
     border-radius: 8px;
@@ -332,7 +337,7 @@ footer{
 }
 
 .Actividad img {
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     border-radius: 4px;
 }
