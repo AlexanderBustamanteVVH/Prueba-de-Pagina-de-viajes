@@ -39,7 +39,7 @@ nav ul li a{
 }
 
 section{
-    padding: 60px 0; /* añade relleno superior e inferior */
+    padding: 10px 0; /* añade relleno superior e inferior */
 }
 
 #banner{
@@ -217,7 +217,7 @@ footer{
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 100%);
     color: white;
-    bottom: 0px;
+    bottom: 3px;
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -301,7 +301,7 @@ footer{
         rgba(0, 0, 0, 0.9) 0%,
         rgba(0, 0, 0, 0) 100%);
     color: white;
-    bottom: 0px;
+    bottom: 3px;
     padding-left: 12px;
     padding-bottom: 10px;
 }
@@ -312,95 +312,6 @@ footer{
     transform: translateX(22px);
 }
 
+
+
 /* parte de destinos */
-
-/*parte actividades*/
-
-.Actividad{
-    position: relative;
-    left: 0px;
-    width: 500px;
-    height: 500px;
-    background-color:
-        var(--background);
-    border-radius: 8px;
-    transition: 1000ms all;
-    transform-origin:center left;
-    box-shadow: 0 5px 12px rgba(201, 238, 253, 0.5);
-    outline: 1px solid var(--background);
-    overflow: hidden;
-}
-
-.Actividad img {
-    height: 500px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-.Actividad:hover {
-    cursor: pointer;
-    transform: scale(1.15);
-    box-shadow: 0 0 20px #00fffc;
-    margin: 5px;
-}
-
-.Actividad:hover figcaption {
-    font-size: 1rem;
-    position: absolute;
-    height: 500px;
-    width: 600px;
-    display: flex;
-    align-items: end;
-    background: linear-gradient(to top,
-        rgba(0, 0, 0, 0.9) 0%,
-        rgba(0, 0, 0, 0) 100%);
-    color: white;
-    bottom: 0px;
-    padding-left: 12px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-}
-
-.Actividad:hover~.Actividad {
-    font-weight: bold;
-    cursor: pointer;
-    transform: translateX(22px);
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0 4em;
-    width: 90%;
-}
-
-.Actividad{
-    margin: 2em;
-}
-#banner_actividades{
-    background-image: url('https://www.globalia.com/wp-content/uploads/2020/02/excursion-1500x500.jpg'); 
-    background-size: cover; 
-    color: #ffffff; 
-    text-align: center;
-    padding: 100px 0;
-}
-
-.preferidas{
-    margin: 0 2em;
-    font-size: 3em;
-}
-
-/*Aqui inicia paquetes*/
-
-#banner_paquetes{
-    background-image: url('https://img.static-kl.com/images/media/38AED63A-3686-4E2A-83A5F754BB3438F4/?w=1500&h=500'); 
-    background-size: cover; 
-    color: #ffffff; 
-    text-align: center;
-    padding: 100px 0;
-}
-
-
-
-/* parte de actividades */
