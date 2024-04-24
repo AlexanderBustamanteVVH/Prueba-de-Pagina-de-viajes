@@ -547,7 +547,7 @@ footer{
     border-radius: 50%;
     line-height: 10px;
 }
-@media screen and (max-width: 900px;) {
+@media screen and (max-width: 900px) {
     .propup {
         flex-direction: column;
         height: 100%;
