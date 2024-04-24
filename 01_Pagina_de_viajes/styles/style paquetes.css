@@ -437,7 +437,6 @@ footer{
     background: rgba(0, 0, 0, 0.8);
     visibility: visible;
     opacity: 1;
-    background-size: cover;
 }
 .container-all:target .popup {
     top: 50%;
@@ -463,7 +462,7 @@ footer{
     left: -80%;
     border-radius: 16px;
 }
-.img-popup1 {
+.img-propup1 {
     width: 40%;
     background-image: url('https://fotografias.lasexta.com/clipping/cmsimages01/2022/10/31/3E5012AF-9D1B-470C-879F-A2641BD9B7D8/viajar-coche_98.jpg?crop=1066,600,x0,y0&width=1900&height=1069&optimize=high&format=webply');
     background-size: cover;
@@ -471,7 +470,7 @@ footer{
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
-.img-popup2 {
+.img-propup2 {
     width: 40%;
     background-image: url('https://img.freepik.com/fotos-premium/cuatro-amigos-varones-teniendo-su-tiempo-libre-viaje-carretera_368093-8343.jpg');
     background-size: cover;
@@ -479,7 +478,7 @@ footer{
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
-.img-popup3 {
+.img-propup3 {
     width: 40%;
     background-image: url('https://img.freepik.com/foto-gratis/concepto-aventura-viajes-turismo-caminata-personas-tres-chicas-bosque_1157-43243.jpg');
     background-size: cover;
@@ -487,7 +486,7 @@ footer{
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
-.img-popup4 {
+.img-propup4 {
     width: 40%;
     background-image: url('https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2022/08/dos-personas-viaje-mirando-movil-2782251.jpg?tf=3840x');
     background-size: cover;
@@ -495,7 +494,7 @@ footer{
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
 }
-.img-popup5 {
+.img-propup5 {
     width: 40%;
     background-image: url('https://www.eluniverso.com/resizer/EQATwn4PR30WCHwF0m8Zu9mFu-o=/639x427/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/4PTVUUGTPVEBZCEJCLTWUONKCI.jpg');
     background-size: cover;
@@ -528,7 +527,7 @@ footer{
     border-radius: 50%;
     line-height: 10px;
 }
-@media screen and (max-width: 900px;) {
+@media screen and (max-width: 900px) {
     .popup {
         flex-direction: column;
         height: 100%;
@@ -543,11 +542,6 @@ footer{
         height: 60%;
         padding: 80px;
     }
-}
-.paquetes-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 #paquete .paquetes-container h2 {
     font-size: 30px;
@@ -572,9 +566,4 @@ footer{
 }
 .titulo-paquetes {
     margin-left: 4em;
-}
-.paquetes-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
