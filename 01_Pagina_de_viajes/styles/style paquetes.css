@@ -558,7 +558,7 @@ footer{
 }
 .paquetes img:hover {
     transform: scale(1.05);
-    z-index: 0;
+    z-index: 1;
 }
 .paquetes h3 {
     margin-top: 10px; /* Distancia entre imagen y h3 */
