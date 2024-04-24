@@ -24,7 +24,7 @@ h2,p,h3{
 header{
     background: linear-gradient(90deg, rgba(7,0,119,1) 3%, rgba(8,8,173,1) 17%, rgba(0,212,255,1) 99%); /* Establece el color del fondo */
     color: #fff; /* Establece el color del texto */ 
-    padding: 20px 0; /* Añade relleno superior e inferior */
+    padding: 30px 0; /* Añade relleno superior e inferior */
 }          
 
 header h1{
@@ -44,7 +44,7 @@ nav ul li a{
 }
 
 section{
-    padding: 60px 0; /* añade relleno superior e inferior */
+    padding: 15px 0; /* añade relleno superior e inferior */
 }
 
 #banner{
@@ -419,4 +419,162 @@ footer{
 
 #paquete{
     margin: 0 2em;
+}
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container-all {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    position: fixed; z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+.container-all:target {
+    background: rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    opacity: 1;
+    background-size: cover;
+}
+.container-all:target .popup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+.paquetes-container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+.popup {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    background: #191F29;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    border-radius: 16px;
+}
+.img-popup1 {
+    width: 40%;
+    background-image: url('https://fotografias.lasexta.com/clipping/cmsimages01/2022/10/31/3E5012AF-9D1B-470C-879F-A2641BD9B7D8/viajar-coche_98.jpg?crop=1066,600,x0,y0&width=1900&height=1069&optimize=high&format=webply');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-popup2 {
+    width: 40%;
+    background-image: url('https://img.freepik.com/fotos-premium/cuatro-amigos-varones-teniendo-su-tiempo-libre-viaje-carretera_368093-8343.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-popup3 {
+    width: 40%;
+    background-image: url('https://img.freepik.com/foto-gratis/concepto-aventura-viajes-turismo-caminata-personas-tres-chicas-bosque_1157-43243.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-popup4 {
+    width: 40%;
+    background-image: url('https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2022/08/dos-personas-viaje-mirando-movil-2782251.jpg?tf=3840x');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-popup5 {
+    width: 40%;
+    background-image: url('https://www.eluniverso.com/resizer/EQATwn4PR30WCHwF0m8Zu9mFu-o=/639x427/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/4PTVUUGTPVEBZCEJCLTWUONKCI.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.container-text {
+    width: 60%;
+    padding: 50px;
+    overflow-y: auto;
+}
+.container-text h1 {
+    font-size: 24px;
+    color: #fff;
+}
+.container-text p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+.btn-close-popup {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -25px;
+    top: -20px;
+    padding: 20px;
+    background:#0F0D0D;
+    color: beige;
+    border-radius: 50%;
+    line-height: 10px;
+}
+@media screen and (max-width: 900px;) {
+    .popup {
+        flex-direction: column;
+        height: 100%;
+        max-height: 800px;
+    }
+    .img-popup {
+        width: 100%;
+        height: 40%;
+    }
+    .container-text {
+        width: 100%;
+        height: 60%;
+        padding: 80px;
+    }
+}
+.paquetes-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#paquete .paquetes-container h2 {
+    font-size: 30px;
+}
+.paquetes {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px; 
+    text-align: center;
+}
+.paquetes img {
+    width: 100%; 
+    border-radius: 10px; 
+    transition: transform .3s;
+}
+.paquetes img:hover {
+    transform: scale(1.05);
+    z-index: 0;
+}
+.paquetes h3 {
+    margin-top: 10px; /* Distancia entre imagen y h3 */
+    font-size: 22px;
+}
+.titulo-paquetes {
+    margin-left: 4em;
+}
+.paquetes-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

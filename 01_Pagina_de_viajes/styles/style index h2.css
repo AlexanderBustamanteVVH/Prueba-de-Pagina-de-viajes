@@ -13,6 +13,9 @@ body { /* Seleccion de body */
 h2,p,h3{
     color: #fff;
 }
+h2 {
+    text-align: center;
+}
 
 /* Aca viene el estilo de una clase container */
 .container{
@@ -44,7 +47,7 @@ nav ul li a{
 }
 
 section{
-    padding: 60px 0; /* añade relleno superior e inferior */
+    padding: 10px 0; /* añade relleno superior e inferior */
 }
 
 #banner{
