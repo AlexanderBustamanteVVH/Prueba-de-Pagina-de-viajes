@@ -1,6 +1,6 @@
 /* Estilos de pagina de viajes 
 * {
-    outline: solid black;
+    outline: solid black; 
 } 
 */
 body { /* Seleccion de body */
@@ -25,7 +25,7 @@ header{
     background: linear-gradient(90deg, rgba(7,0,119,1) 3%, rgba(8,8,173,1) 17%, rgba(0,212,255,1) 99%); /* Establece el color del fondo */
     color: #fff; /* Establece el color del texto */ 
     padding: 20px 0; /* Añade relleno superior e inferior */
-}          
+}           
 
 header h1{
     margin: 0; /* Elimina el margen por defecto del título */
@@ -393,7 +393,207 @@ footer{
 
 .preferidas{
     margin: 0 2em;
-    font-size: 2em;
+    font-size: 3em;
+}
+
+/*Aqui inicia paquetes*/
+
+#banner_paquetes{
+    background-image: url('https://img.static-kl.com/images/media/38AED63A-3686-4E2A-83A5F754BB3438F4/?w=1500&h=500'); 
+    background-size: cover; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 100px 0;
 }
 
 /* parte de actividades */
+
+/* Parte de paquetes */
+
+#auto{
+    margin: 0 2em;
+}
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container-all {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    position: fixed; z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+.container-all:target {
+    background: rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    opacity: 1;
+}
+.container-all:target .propup {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+
+.propup {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    background: #191F29;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    border-radius: 16px;
+}
+.img-propup1 {
+    width: 40%;
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.6TpOZLssYZCP_78Ck2szwwHaFS&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup2 {
+    width: 40%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3obk-M7UCU9pOeo6Y9qXYKQeTwSxM2j-s7iTkcHmlLw&s');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup3 {
+    width: 40%;
+    background-image: url('https://acnews.blob.core.windows.net/imgnews/medium/NAZ_03dcb99ae42b4835aa3ce4a58422d308.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup4 {
+    width: 40%;
+    background-image: url('https://acnews.blob.core.windows.net/imgnews/large/NAZ_eb0347c5d0cd4170bfa5bb17fb0c3247.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup5 {
+    width: 40%;
+    background-image: url('https://www.actualidadmotor.com/wp-content/uploads/2016/03/moab-easter-jeep-safari-2016-3-830x460.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup6 {
+    width: 40%;
+    background-image: url('https://aventuramotors.cl/storage/imagenes/am-mitsubishi-l200-4x2-fotosinterioresexteriores-11-050249100-1668803409.png');
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup7 {
+    width: 40%;
+    background-image: url('https://img.freepik.com/fotos-premium/foto-kawasaki-ninja-h2r_903974-259.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup8 {
+    width: 40%;
+    background-image: url('https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2022/06/17/186446-l1.jpg?itok=JbCGzL61');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-propup9 {
+    width: 40%;
+    background-image: url('https://latam-editorial.pxcrush.net/chileautos/general/editorial/29042022-interior-toyota-supra-2023-1-xnef.jpg?pxc_width=900&pxc_height=600&pxc_method=crop&pxc_format=auto');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.container-text {
+    width: 60%;
+    padding: 50px;
+    overflow-y: auto;
+}
+.container-text h1 {
+    font-size: 24px;
+    color: #fff;
+}
+.container-text p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+.btn-close-popup {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -25px;
+    top: -20px;
+    padding: 20px;
+    background:#0F0D0D;
+    color: beige;
+    border-radius: 50%;
+    line-height: 10px;
+}
+@media screen and (max-width: 900px;) {
+    .propup {
+        flex-direction: column;
+        height: 100%;
+        max-height: 800px;
+    }
+    .img-propup {
+        width: 100%;
+        height: 40%;
+    }
+    .container-text {
+        width: 100%;
+        height: 60%;
+        padding: 80px;
+    }
+}
+.autos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#auto .autos-container h2 {
+    font-size: 30px;
+}
+.autos {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px; 
+    text-align: center;
+}
+.autos img {
+    width: 100%; 
+    border-radius: 10px; 
+    transition: transform .3s;
+}
+.autos img:hover {
+    transform: scale(1.05);
+    z-index: 0;
+}
+.autos h3 {
+    margin-top: 10px; /* Distancia entre imagen y h3 */
+    font-size: 22px;
+}
+.autos-titulo {
+    margin-left: 4em;
+}
+.autos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

@@ -1,6 +1,6 @@
 /* Estilos de pagina de viajes 
 * {
-    outline: solid black;
+    outline: solid black; 
 } 
 */
 body { /* Seleccion de body */
@@ -12,6 +12,9 @@ body { /* Seleccion de body */
 
 h2,p,h3{
     color: #fff;
+}
+h2 {
+    text-align: center;
 }
 
 /* Aca viene el estilo de una clase container */
@@ -44,7 +47,7 @@ nav ul li a{
 }
 
 section{
-    padding: 15px 0; /* añade relleno superior e inferior */
+    padding: 10px 0; /* añade relleno superior e inferior */
 }
 
 #banner{
@@ -393,7 +396,30 @@ footer{
 
 .preferidas{
     margin: 0 2em;
-    font-size: 2em;
+    font-size: 3em;
+}
+
+/*Aqui inicia paquetes*/
+
+#banner_paquetes{
+    background-image: url('https://img.static-kl.com/images/media/38AED63A-3686-4E2A-83A5F754BB3438F4/?w=1500&h=500'); 
+    background-size: cover; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 100px 0;
 }
 
 /* parte de actividades */
+
+#autos{
+    margin: 0 4em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4em;
+    justify-content: space-between;
+}
+/* Parte de paquetes */
+
+#paquete{
+    margin: 0 2em;
+}
